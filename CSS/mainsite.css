@@ -11,25 +11,76 @@ nav{
 
 }
 .navbar{
-    height: 3em;
+    height: ;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     
 }
 
-ul{
+nav ul{
     list-style-type: none;
     margin:0 0 0 42em;
     text-align: right;
 }
-li{
+nav li{
     display:inline-block;
-    margin:1em;
+    margin:1.8em;
 }
 
-a{
+nav a{
     text-decoration: none;
-    color:white
+    color:white 
+}
+.image{
+    margin: 3em 5em 3em 5em;
+    width: 25em;
+    height: 30em;
+    border-radius: 5%;
+}
+img{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+
+.big{
+    margin:0;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    margin:0 0 0 20em;
+}
+
+
+.container ul li{
+    text-decoration:none;
+    list-style-type: none;
+    margin-bottom: 5em;
+    padding:0;
+    
+    text-align: center;
+    align-items: center;
+    
+    width: 15em;
+    height: 2em;
+    
+    
+    
+    
+    
+    
     
 }
+.button{
+    text-decoration: none;
+    color: white;
+    margin:0;
+
+}
+
+
+
