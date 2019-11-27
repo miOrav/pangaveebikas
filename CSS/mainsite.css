@@ -3,15 +3,17 @@ html,body{
     padding: 0;
     text-decoration: none;
     font-family:"Segoe UI";
-    background-color: #2c2538;
+    background-color: rgba(44, 37, 56, 1);
 }
 
 nav{
     background-color: rgba(35, 17, 46, 0.2);
+    height: 50px;
+    width:auto;
 
 }
 .navbar{
-    height: ;
+    height:inherit;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -20,12 +22,14 @@ nav{
 
 nav ul{
     list-style-type: none;
-    margin:0 0 0 42em;
+    margin:0 3em 0 42em;
     text-align: right;
+    position: auto;
 }
 nav li{
     display:inline-block;
     margin:1.8em;
+    position: auto;
 }
 
 nav a{
@@ -33,15 +37,16 @@ nav a{
     color:white 
 }
 .image{
-    margin: 3em 5em 3em 5em;
+    margin: 3em 0em 3em 10em;
     width: 25em;
     height: 30em;
     border-radius: 5%;
 }
-img{
+iframe{
     width: inherit;
     height: inherit;
     border-radius: inherit;
+    border:none;
 }
 
 .big{
@@ -52,34 +57,50 @@ img{
 }
 
 .container{
-    margin:0 0 0 20em;
+    margin:0 0 0 15em;
+    
+    background-color:rgba(98, 91, 110, 0.603);
+    justify-content: center;
+
+    width: 20em;
+    border-radius:5%;
 }
 
 
 .container ul li{
     text-decoration:none;
     list-style-type: none;
-    margin-bottom: 5em;
-    padding:0;
+    margin: 3em 0em;
+    
+    border-radius:2%;
     
     text-align: center;
-    align-items: center;
     
     width: 15em;
-    height: 2em;
-    
-    
-    
-    
-    
+    height: 2.5em;
+
     
     
 }
 .button{
+    display: block;
     text-decoration: none;
     color: white;
-    margin:0;
+    height: inherit;
+    padding-top:0.4em;
+    align-items: center;
+    opacity: 1;
+}
 
+
+.container ul li:hover{
+    opacity: 0.7;
+}
+.container p{
+    font-style: bold;
+    font-size: 2rem;
+    margin:1em;
+    
 }
 
 
