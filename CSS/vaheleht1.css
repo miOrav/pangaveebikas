@@ -1,0 +1,12 @@
+.lehtpooleks{
+    display: flex;
+    justify-content: space-between;
+}
+
+#esimenepool{
+
+}
+
+#teinepool img{
+    width:500px;height:300px;
+}
