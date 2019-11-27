@@ -1,0 +1,27 @@
+.lehtpooleks{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size:1.5em;
+}
+
+.lehtpooleks img{
+    width:500px;height:300px;
+}
+
+#textbox{
+    margin: 2rem;
+    width:1000px;height:300px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#footer{
+    background-color:  #2c2538;
+    margin-top: 1em;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
