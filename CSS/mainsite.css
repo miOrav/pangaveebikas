@@ -37,8 +37,8 @@ nav a{
     color:white 
 }
 .image{
-    margin: 3em 0em 3em 10em;
-    width: 25em;
+    margin: 3em 0em 3em 5em;
+    width: 40em;
     height: 30em;
     border-radius: 5%;
 }
@@ -57,7 +57,7 @@ iframe{
 }
 
 .container{
-    margin:0 0 0 15em;
+    margin:0 0 0 10em;
     
     background-color:rgba(98, 91, 110, 0.603);
     justify-content: center;
