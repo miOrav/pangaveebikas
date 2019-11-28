@@ -125,14 +125,21 @@ iframe{
     width: 35%;
     min-width: 300px;
     border-radius: 30px;
+    justify-content: center;
 }
 
 .box p{
-    margin:0;
+    margin:1.5em;
     font-size: 1rem;
     font-style: italic;
     float: left;
 
+}
+
+figcaption{
+    font-size: 1.2rem;
+    margin:2em 0 0 6em;
+    
 }
 
 #box1{
@@ -140,11 +147,13 @@ iframe{
     background-color:  rgba(239, 16, 77, 0.85);
     
 }
-#box1 img{
-    width:10em;
-    height:5em;
-    clip-path: circle(22.8% at 39% 36%);
+
+.box img{
+    width:12em;
+    height:6em;
+    clip-path: circle(27% at 50% 50%);
     float:left;
+    
 }
 #box2{
     background-color:  rgba(145, 128, 132, 0.85);
@@ -157,7 +166,7 @@ iframe{
 }
 
 #box4{
-    background-color: rgba(98, 91, 110, 0.603);
+    background-color: rgba(0, 225, 255, 0.603);
     
 }
 
