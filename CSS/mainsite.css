@@ -3,6 +3,7 @@ html,body,ul,li,a,div{
     padding: 0;
     text-decoration: none;
     font-family:"Segoe UI";
+    color:rgb(17, 21, 44);
     
 }
 body{
@@ -44,7 +45,7 @@ nav a{
  }
 .image{
     margin:0;
-    width: 40em;
+    width: 75%;
     height: 30em;
     border-radius: 5%;
 }
@@ -58,11 +59,14 @@ iframe{
 
 
 .container{
-    background-color:rgba(98, 91, 110, 0.603);
+    
     width: 35%;
-    border-radius:5%;
     min-width: 300px;
+}
 
+#buttonboard{
+    border-radius: 5%;
+    background-color:rgba(98, 91, 110, 0.603);
 }
 
 
@@ -101,7 +105,7 @@ iframe{
     font-style: bold;
     font-size: 2rem;
     margin:1.4em;
-    color:rgb(17, 21, 44);
+    
     
 }
 
@@ -109,20 +113,61 @@ iframe{
     font-size:0.8rem;
 }
 
-#group1 .container{
+.big2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin:6em 3em 0 3em;
+}
+.box{
+    margin-bottom: 5em;
+    width: 35%;
+    min-width: 300px;
+    border-radius: 30px;
+}
+
+.box p{
+    margin:0;
+    font-size: 1rem;
+    font-style: italic;
+    float: left;
+
+}
+
+#box1{
     
-    background-color:rgba(147, 145, 155, 0.952);
-    padding:1em;
-    margin:3em 5em 3em 5em;
-    border-radius:0%;
+    background-color:  rgba(239, 16, 77, 0.85);
+    
+}
+#box1 img{
+    width:10em;
+    height:5em;
+    clip-path: circle(22.8% at 39% 36%);
+    float:left;
+}
+#box2{
+    background-color:  rgba(145, 128, 132, 0.85);
     
 }
 
-#group2 .container{
-    background-color:rgba(37, 235, 69, 0.6);
-    padding:1em;
+#box3{
+    background-color:  rgba(21, 153, 80, 0.85);
     
 }
+
+#box4{
+    background-color: rgba(98, 91, 110, 0.603);
+    
+}
+
+
+@media only screen and (max-width: 800px) {
+    .big{
+        display:block;
+    }
+  }
+
 
 
 
