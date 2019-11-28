@@ -1,8 +1,11 @@
-html,body{
+html,body,ul,li,a,div{
     margin:0;
     padding: 0;
     text-decoration: none;
     font-family:"Segoe UI";
+    
+}
+body{
     background-color: rgba(44, 37, 56, 1);
 }
 
@@ -14,16 +17,14 @@ nav{
 }
 .navbar{
     height:inherit;
-    display: inline-flex;
+    width: inherit;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 nav ul{
     list-style-type: none;
-    margin:0 3em 0 42em;
-    text-align: right;
     position: auto;
 }
 nav li{
@@ -36,8 +37,13 @@ nav a{
     text-decoration: none;
     color:white 
 }
+.big{
+    margin:3em;
+    display: flex;
+    justify-content: space-between;
+ }
 .image{
-    margin: 3em 0em 3em 5em;
+    margin:0;
     width: 40em;
     height: 30em;
     border-radius: 5%;
@@ -49,59 +55,78 @@ iframe{
     border:none;
 }
 
-.big{
-    margin:0;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .container{
-    margin:0 0 0 10em;
-    
     background-color:rgba(98, 91, 110, 0.603);
-    justify-content: center;
-
-    width: 20em;
+    width: 35%;
     border-radius:5%;
+    min-width: 300px;
+
 }
+
+
 
 
 .container ul li{
+    display: block;
     text-decoration:none;
     list-style-type: none;
-    margin: 3em 0em;
+    margin: 3em auto;
     
-    border-radius:2%;
     
-    text-align: center;
     
-    width: 15em;
-    height: 2.5em;
+    
+    
+    width: 75%;
+    height: 3em; 
+    
 
-    
-    
 }
 .button{
     display: block;
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255 ,1);
     height: inherit;
-    padding-top:0.4em;
-    align-items: center;
-    opacity: 1;
+     
+    line-height: 3em;
+    text-align: center;
 }
 
 
 .container ul li:hover{
     opacity: 0.7;
 }
-.container p{
+.container h1{
     font-style: bold;
     font-size: 2rem;
-    margin:1em;
+    margin:1.4em;
+    color:rgb(17, 21, 44);
     
 }
+
+.container p{
+    font-size:0.8rem;
+}
+
+#group1 .container{
+    
+    background-color:rgba(147, 145, 155, 0.952);
+    padding:1em;
+    margin:3em 5em 3em 5em;
+    border-radius:0%;
+    
+}
+
+#group2 .container{
+    background-color:rgba(37, 235, 69, 0.6);
+    padding:1em;
+    
+}
+
+
+
+
 
 
 
