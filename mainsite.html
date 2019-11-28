@@ -12,11 +12,21 @@
         <div class="navbar">
             <img src="Images\DarthBank_logo.svg" alt="logo">
             <ul>
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#finances">Finances</a></li>
-                <li><a href="#job offerings">Job offerings</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="mainsite.html">Avaleht</a></li>
+                <li><a href="vaheleht2.html">Minu konto</a></li>
+                <li><a href="#job offerings">Tööpakkumised</a></li>
+                <li><a href="vaheleht1.html">Rohkem infot</a></li>
             </ul>
+            <img src="Images\menu_icon.svg"  class="burgermenu" alt="burgericon" onclick="ava_menuu()">
+            
+        </div>
+        <div id="menu-box">
+                <ul>
+                        <li><a href="mainsite.html">Avaleht</a></li>
+                        <li><a href="vaheleht2.html">Minu konto</a></li>
+                        <li><a href="#job offerings">Tööpakkumised</a></li>
+                        <li><a href="vaheleht1.html">Rohkem infot</a></li>
+                </ul>
         </div>
     </nav>
     <div class="big">
@@ -43,7 +53,7 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
                     aliquip ex ea commodo consequat."
             </p>
-            <figcaption> -a chemistry teacher</figcaption>
+            <figcaption> -sinu keemia õpetaja</figcaption>
             
 
         </div>
@@ -85,4 +95,19 @@
     
         
 </body>
+<script>
+    var istrue = false;
+    function ava_menuu(){
+        if (istrue == false){
+            var x = document.getElementById("menu-box").style.display="block";
+            istrue = true;
+        }
+        else{
+            var x = document.getElementById("menu-box").style.display="none";
+            istrue = false;
+        }
+        
+        return x;
+        }
+</script>
 </html>

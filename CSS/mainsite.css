@@ -31,8 +31,9 @@ nav{
 
 nav ul{
     list-style-type: none;
-    position: auto;
+    
     margin-right:5em;
+
 }
 nav li{
     display:inline-block;
@@ -42,7 +43,26 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color:white 
+    color:white ;
+    font-size: 1rem;
+}
+
+.burgermenu{
+    size: 1rem;
+    display:none;
+    
+}
+#menu-box{
+    background-color: grey;
+    width:25%;
+    min-width: 200px;
+    height:100vh;
+    margin:0;
+    z-index: 2;
+    opacity: 0.7;
+    float:right;
+    
+    display:none;
 }
 .big{
     margin:3em;
@@ -54,6 +74,7 @@ nav a{
     width: 75%;
     height: 30em;
     border-radius: 5%;
+    min-width: 600px;
 }
 iframe{
     width: inherit;
@@ -142,6 +163,15 @@ iframe{
 
 }
 
+.box img{
+    width:12em;
+    height:6em;
+    clip-path: circle(27% at 50% 50%);
+    float:left;
+    margin-top:0.8em;
+    
+}
+
 figcaption{
     font-size: 1.2rem;
     margin:2em 0 0 6em;
@@ -154,13 +184,7 @@ figcaption{
     
 }
 
-.box img{
-    width:12em;
-    height:6em;
-    clip-path: circle(27% at 50% 50%);
-    float:left;
-    
-}
+
 #box2{
     background-color:  rgba(145, 128, 132, 0.85);
     
@@ -179,9 +203,29 @@ figcaption{
 
 @media only screen and (max-width: 800px) {
     .big{
-        display:block;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
+    .image{
+        width:60%;
+        margin-left:15em;
+        margin-bottom: 3em;
+    }
+    
   }
+
+@media only screen and (max-width: 1000px){
+    .navbar ul{
+        display:none;
+    }
+    .burgermenu{
+        display:block;
+        margin: 0 0 0 0;
+
+    }
+    
+}
 
 
 
