@@ -23,10 +23,16 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.navbar img{
+    height:1.4em;
+    width:20em ;
+    float:left;
+}
 
 nav ul{
     list-style-type: none;
     position: auto;
+    margin-right:5em;
 }
 nav li{
     display:inline-block;
