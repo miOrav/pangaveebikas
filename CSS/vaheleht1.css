@@ -9,14 +9,14 @@
     width:500px;height:300px;
 }
 
-#textbox{
+.textbox{
     margin: 2rem;
     width:1000px;height:300px;
     text-align: justify;
     text-justify: inter-word;
 }
 
-#nimi{
+.nimi{
     font-size: 1.4em;
     color: bisque;
 }
