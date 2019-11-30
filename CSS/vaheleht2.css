@@ -1,4 +1,4 @@
-html,body,ul,li,a,div{
+html,body,ul,li,a{
     margin:0;
     padding: 0;
     text-decoration: none;
@@ -46,3 +46,29 @@ nav a{
     color:white ;
     font-size: 1rem;
 }
+
+.big1{
+    margin-left: 200px;
+    margin-right: 200px;
+    border-left: 5px  rgb(187, 168, 199);
+    background-color: rgb(35, 17, 46, 0.2);
+
+ }
+
+.big2{
+    border: 100px;
+    justify-content: space-between;
+ }
+ 
+ .boxL{
+    padding-right: 50px darkgrey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: darkgrey;
+    border-right: darkgrey;
+    border-bottom: darkgrey;
+ }
+
+ h1{
+    font-size: 400%;
+ }
