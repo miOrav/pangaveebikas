@@ -1,4 +1,4 @@
-html,body,ul,li,a,div{
+html,body,ul,li,a{
     margin:0;
     padding: 0;
     text-decoration: none;
@@ -46,3 +46,43 @@ nav a{
     color:white ;
     font-size: 1rem;
 }
+
+.big1{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 50px;
+    border-left: 5px solid rgb(187, 168, 199);
+    background-color: rgb(35, 17, 46, 0.2);
+
+}
+
+.big2{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#photo{
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#andmed{
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: 2px solid rgb(187, 168, 199);
+}
+
+ h1{
+    font-size: 400%;
+ }
+
+ h2{
+     font-size: 300%;
+ }
+
+h3{
+    line-height: 50px;
+    font-size: 200%;
+ }
