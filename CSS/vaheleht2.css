@@ -74,15 +74,34 @@ nav a{
     border-left: 2px solid rgb(187, 168, 199);
 }
 
- h1{
+h1{
     font-size: 400%;
- }
+    margin-block-end: 0em
+}
 
- h2{
-     font-size: 300%;
+p{
+    font-family: monospace;
+    font-size: 150%;
+    margin-block-start: 0em;
+} 
+
+h2{
+    font-size: 300%;
+    margin-block-start: 0em
  }
 
 h3{
     line-height: 50px;
     font-size: 200%;
  }
+
+#footer{
+    background-color:   rgba(35, 17, 46, 0.2);
+    margin-top: 1em;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+}
