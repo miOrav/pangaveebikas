@@ -15,7 +15,6 @@
             <ul>
                 <li><a href="mainsite.html">Avaleht</a></li>
                 <li><a href="vaheleht2.html">Minu konto</a></li>
-                <li><a href="#job offerings">Tööpakkumised</a></li>
                 <li><a href="vaheleht1.html">Rohkem infot</a></li>
             </ul>
             <img src="Images\menu_icon.svg"  class="burgermenu" alt="burgericon" onclick="ava_menuu()">  
@@ -24,7 +23,6 @@
             <ul>
                 <li><a href="mainsite.html">Avaleht</a></li>
                 <li><a href="vaheleht2.html">Minu konto</a></li>
-                <li><a href="#job offerings">Tööpakkumised</a></li>
                 <li><a href="vaheleht1.html">Rohkem infot</a></li>
             </ul>
         </div>
@@ -55,8 +53,23 @@
 <footer>
     <div id="footer">
         <p>
-            Kontakttelefon: +372 634 0212   email: xXfreemoneyXx.krabs@gmail.com    aadress: Kärberi 9, Lasnamäe linnaosa, 13918 Tallinn
+            Kontakttelefon: +372 634 0212 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; email: xXfreemoneyXx.krabs@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aadress: Kärberi 9, Lasnamäe linnaosa, 13918 Tallinn
         </p>
     </div>
 </footer>
+<script>
+        var istrue = false;
+        function ava_menuu(){
+            if (istrue == false){
+                var x = document.getElementById("menu-box").style.display="block";
+                istrue = true;
+            }
+            else{
+                var x = document.getElementById("menu-box").style.display="none";
+                istrue = false;
+            }
+            
+            return x;
+            }
+</script>
 </html>
