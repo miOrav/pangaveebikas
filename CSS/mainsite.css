@@ -202,6 +202,17 @@ figcaption{
     
 }
 
+#footer{
+    background-color:   rgba(35, 17, 46, 0.2);
+    margin-top: 1em;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+}
+
 
 @media only screen and (max-width: 800px) {
     .big{
