@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>??? pank</title>
-    <link rel="stylesheet" href="CSS\mainsite.css">
+    <link rel="stylesheet" href="CSS/mainsite.css">
 </head>
 <body>
     <nav>
         <div class="navbar">
-            <a href="mainsite.html"><img src="Images\DarthBank_logo.svg" alt="logo"></a>
+            <a href="mainsite.html"><img src="Images/DarthBank_logo.svg" alt="logo"></a>
             <ul>
                 <li><a href="mainsite.html">Avaleht</a></li>
                 <li><a href="vaheleht2.html">Minu konto</a></li>
                 <li><a href="vaheleht1.html">Rohkem infot</a></li>
             </ul>
-            <img src="Images\menu_icon.svg"  class="burgermenu" alt="burgericon" onclick="ava_menuu()"> 
+            <img src="Images/menu_icon.svg"  class="burgermenu" alt="burgericon" onclick="ava_menuu()"> 
             
         </div>
         <div id="menu-box">
@@ -49,8 +49,8 @@
     </div>
     <div class="big2">
         <div class="box" id="box1" >
-            <img src="Images\bank director.jpg" alt="error"> 
-            <figcaption> -sinu keemia õpetaja</figcaption>
+            <img src="Images/bank_director.jpg" alt="error"> 
+            <h2> -sinu keemia õpetaja</h2>
             <p>
                     "Sa oled täielik null! Darthbanki abiga, aga
                     6 nulli ja 1 nende ees. Siin pole vaja mingit
@@ -61,8 +61,8 @@
 
         </div>
         <div class="box" id="box2">
-                <img src="Images\lembitu.jpg" alt="error">
-                <figcaption>-Lembitu</figcaption>
+                <img src="Images/lembitu.jpg" alt="error">
+                <h2>-Lembitu</h2>
                 <p>
                         "Vot mina seda rahaasja ei jaga,
                         aga leiva toob Darthbank lauale küll.
@@ -73,8 +73,8 @@
             
             </div>
             <div class="box" id="box3">
-                    <img src="Images\dan.jpg" alt="error">
-                    <figcaption>-Dan</figcaption>
+                    <img src="Images/dan.jpg" alt="error">
+                    <h2>-Dan</h2>
                     <p>
                             "Like seriously guys this bank is the real deal.
                             Just put all your money there and thank me later!"
@@ -84,8 +84,8 @@
                 
                 </div>
                 <div class="box" id="box4">
-                        <img src="Images\bill.jpg" alt="error">
-                        <figcaption>-Bill</figcaption>
+                        <img src="Images/bill.jpg" alt="error">
+                        <h2>-Bill</h2>
                         <p>
                                 "Ilma Darthbankita poleks ma täna nii rikas, kui täna.
                                 Seda ma mõtlen nii materiaalses, kui vaimses mõttes.
@@ -96,28 +96,28 @@
                     </div>
         </div>
     
-        
+        <footer>
+                <div id="footer">
+                    <p>
+                        Kontakttelefon: +372 634 0212  email: xXfreemoneyXx.krabs@gmail.com    aadress: Kärberi 9, Lasnamäe linnaosa, 13918 Tallinn
+                    </p>
+                </div>
+            </footer>
+            <script>
+                var istrue = false;
+                function ava_menuu(){
+                    if (istrue == false){
+                        var x = document.getElementById("menu-box").style.display="block";
+                        istrue = true;
+                    }
+                    else{
+                        var x = document.getElementById("menu-box").style.display="none";
+                        istrue = false;
+                    }
+                    
+                    return x;
+                    }
+            </script>  
 </body>
-<footer>
-    <div id="footer">
-        <p>
-            Kontakttelefon: +372 634 0212  email: xXfreemoneyXx.krabs@gmail.com    aadress: Kärberi 9, Lasnamäe linnaosa, 13918 Tallinn
-        </p>
-    </div>
-</footer>
-<script>
-    var istrue = false;
-    function ava_menuu(){
-        if (istrue == false){
-            var x = document.getElementById("menu-box").style.display="block";
-            istrue = true;
-        }
-        else{
-            var x = document.getElementById("menu-box").style.display="none";
-            istrue = false;
-        }
-        
-        return x;
-        }
-</script>
+
 </html>
