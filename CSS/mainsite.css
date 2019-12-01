@@ -3,7 +3,7 @@ html,body,ul,li,a,div{
     padding: 0;
     text-decoration: none;
     font-family:"Segoe UI";
-    color:rgb(255, 255, 255);
+    color:rgb(17, 21, 44);
     
 }
 body{
@@ -174,9 +174,10 @@ iframe{
     
 }
 
-figcaption{
+h2{
     font-size: 1.2rem;
     margin:2em 0 0 6em;
+    font-weight: normal;
     
 }
 
@@ -211,6 +212,7 @@ figcaption{
     bottom: 0;
     width: 100%;
     color:white;
+
 }
 
 
